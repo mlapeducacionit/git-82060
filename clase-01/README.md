@@ -95,4 +95,30 @@ git status # Forma larga con info.
 
 ## Estado de los archivos
 
-* untracked -> El o los archivos lo ve git pero no les está dando seguimiento (No sabe el contenido que tiene adentro el archivo)
+* untracked (rojo) -> El o los archivos lo ve git pero no les está dando seguimiento (No sabe el contenido que tiene adentro el archivo)
+
+* staged (verde) -> estado del archivo cuando esta en el staging area, listo para hacer una instanea (commit)
+
+* modified (rojo) -> compara la versión del archivo que tengo en el LR contra la versión del archivo que tengo en Staging y el Working
+
+## Marcar archivos (marcarlos en el staging area) para que se guarden en el próximo commit
+
+```sh
+git add <nombre-archivo>
+git add <nombre-archivo1> <nombre-archivo2> <nombre-archivo3>
+git add . # marco todos los archivos para que sean parte del próximo commit
+``` 
+
+## Creamos un commit con los archivos marcados (en el staging area)
+
+```sh
+git commit -m "<Descripción del contenido de los archivos>"
+git commit -m "Empezando con git, explicando markdown y las bases"
+``` 
+
+## Listar commits (mostrar timeline de commits)
+
+```sh
+git log # Forma larga
+git log --oneline # Forma corta
+```
