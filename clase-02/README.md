@@ -65,3 +65,19 @@ git restore . # Recupera todos los archivos a la versión actual del LR
 ```sh
 git commit -am "mensaje descriptivo" # -a <---- ADD | -m <----- MENSAJE
 ``` 
+
+## Enmendar un commit. (Puedo agregar archivos o modificaciones a un archivos)
+Evita por ejemplo que tenga que hacer un commit de un archivo que me olvide guardar.
+Además se puede corregir el mensaje del último commit
+
+```sh
+git commit -m --amend "<mensaje descritivo de commit>"
+git commit --amend -m "Como enmendar un commit agregando archivos o cambiando el titulo del commit"
+```
+
+En el caso que el mensaje no lo quiera cambiar
+
+```sh
+git commit -a --amend --no-edit
+``` 
+
