@@ -26,3 +26,7 @@ git commit -m "Mensaje descriptivo" # 80 caracteres
 ```sh
 git log --oneline
 ```
+
+# .gitignore
+Es un archivo que me permite indicarle a GIT que no quiero que la carpeta o el archivo sea controlado por GIT
+
