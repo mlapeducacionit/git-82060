@@ -49,3 +49,11 @@ git diff
 git show <HASH>
 git show cb20a1a
 ```
+
+## Recuperar archivos desde el LOCAL REPO
+
+```sh
+git restore <nombre-archivo1> <nombre-archivo2>
+git restore clase-02/README.md
+git restore . # Recupera todos los archivos a la versión actual del LR
+```
