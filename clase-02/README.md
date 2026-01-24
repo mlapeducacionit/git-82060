@@ -57,3 +57,11 @@ git restore <nombre-archivo1> <nombre-archivo2>
 git restore clase-02/README.md
 git restore . # Recupera todos los archivos a la versión actual del LR
 ```
+
+## Comando para hacer add y commits en un solo paso
+
+**IMPORTANTE**: Solo funciona con archivo que ya estén siendo seguidos por GIT. Si tengo archivos untracked esos archivos cuando haga el comando no se van agregar al Staging Area
+
+```sh
+git commit -am "mensaje descriptivo" # -a <---- ADD | -m <----- MENSAJE
+``` 
