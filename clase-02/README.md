@@ -81,3 +81,24 @@ En el caso que el mensaje no lo quiera cambiar
 git commit -a --amend --no-edit
 ``` 
 
+# Trabajar con el remoto
+Para agregar un repositorio remoto en mi local. 
+
+```sh
+git remote add <alias> <url-al-remoto>
+git remote add origin https://github.com/mlapeducacionit/git-82060.git
+```
+
+## Puedo sincronizar los cambios (subir el repo local al remoto)
+
+> La primera vez
+
+```sh
+git push -u origin main # -u <--- es decir a git que trabaje en forma sincornizada con la rama remota (main con origin/main)
+```
+
+> Las siguientes veces, no necesito indicarle
+
+```sh
+git push
+```
