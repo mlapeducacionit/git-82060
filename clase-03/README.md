@@ -89,5 +89,19 @@ git config --global --list
 git config --global --unset alias.sc
 ```
 
-### Empezando con fusiones (juntar 2 ramas)
+# Empezando con fusiones (juntar 2 ramas)
 Voy a poder funsionar 2 o más ramas entre si para llevar los cambios de una rama origen a la destino.
+
+## Trabajando con fusiones
+IMPORTANTE: Es que para hacer una fusión. Tengo que estar en la rama destino. O sea si me quiero traer los cambios de la rama feature/branches a la rama main, tengo que estar parado en la rama main y traerme los cambios de la otra rama
+
+```sh
+git switch main
+git merge feature/branches
+``` 
+
+### Pueden suceder 3 cosas
+
+* Fast-forward -> Fusión automatica -> Git se encarga de resolver la fusión
+* Tercer Vía -> Diferentes algoritmos para resolver la fusión -> Automatico
+* Conflicto -> El proceso de fusión es manual. Voy a tener que solventar el conflicto y avisarle a git que lo hice para terminar el proceso de fusión.
