@@ -43,3 +43,27 @@ git branch -D <nombre-rama>
 git branch -D feature/navbar
 ```
 
+### Subir una rama al remoto
+
+```sh
+git push <remoto> <nombre-rama>
+git push origin features/branches
+```
+
+### Descargar toda la metadata del remoto (Actualizar la carpeta .git local)
+
+```sh
+git fetch
+```
+
+### Listar ramas locales y remotas
+
+```sh
+git branch -a
+```
+
+### Listar ramas locales y remotas con detalle
+
+```sh
+git branch -av
+```
