@@ -27,3 +27,10 @@ git switch -c feature/navbar
 ```sh
 git switch -
 ```
+
+### Eliminar una rama que no haya tenido cambios
+
+```sh
+git branch -d <nombre-rama>
+git branch -d feature/navbar
+``` 
