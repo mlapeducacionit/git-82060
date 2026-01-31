@@ -33,4 +33,13 @@ git switch -
 ```sh
 git branch -d <nombre-rama>
 git branch -d feature/navbar
-``` 
+```
+
+### Eliminar una rama que tenga cambios que no estén en el resto del proyecto
+Borro una rama de manera forzada
+
+```sh
+git branch -D <nombre-rama>
+git branch -D feature/navbar
+```
+
