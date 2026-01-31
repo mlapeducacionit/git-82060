@@ -105,3 +105,16 @@ git merge feature/branches
 * Fast-forward -> Fusión automatica -> Git se encarga de resolver la fusión
 * Tercer Vía -> Diferentes algoritmos para resolver la fusión -> Automatico
 * Conflicto -> El proceso de fusión es manual. Voy a tener que solventar el conflicto y avisarle a git que lo hice para terminar el proceso de fusión.
+
+# Distintos ambitos en GIT (scopes)
+
+*   --system (alto) -> A todo el sistema operativo. Usuarios y repositorios
+*   --global -> Aplica todos los repositorios del usuario actual. (Estandar)
+*   --local (bajo) -> Al repositorio especifico en el que estoy trabajando.
+
+```sh
+git config --<scope> 
+git config --system
+git config --global
+git config --local
+```
