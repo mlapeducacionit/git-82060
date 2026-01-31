@@ -119,9 +119,17 @@ git config --global
 git config --local
 ```
 
+# Herramientas con interfaz gráfica de GIT
+
+* GitHub Desktop https://desktop.github.com/download/
+* GitKraken https://www.gitkraken.com/b
+
 ## Git tags
 
 * Marcar versiones de lanzamiento
 * Facilitar despligues y rollbacks
 * Automatizar versiones en CI/CD
 * Compartir versiones con otros
+
+
+
