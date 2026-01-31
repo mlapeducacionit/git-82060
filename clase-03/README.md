@@ -67,3 +67,24 @@ git branch -a
 ```sh
 git branch -av
 ```
+
+# Alias en GIT
+
+```sh
+git config --global alias.ll "log --oneline --all --decorate --graph"
+git config --global alias.l "log --oneline"
+git config --global alias.s "status"
+git config --global alias.ss "status --short"
+```
+
+## Listar configuraciones y alias
+
+```sh
+git config --global --list
+``` 
+
+## Borrar alias
+
+```sh
+git config --global --unset alias.sc
+```
