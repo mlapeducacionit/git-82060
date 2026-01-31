@@ -88,3 +88,6 @@ git config --global --list
 ```sh
 git config --global --unset alias.sc
 ```
+
+### Empezando con fusiones (juntar 2 ramas)
+Voy a poder funsionar 2 o más ramas entre si para llevar los cambios de una rama origen a la destino.
