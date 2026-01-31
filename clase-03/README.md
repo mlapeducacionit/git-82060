@@ -118,3 +118,8 @@ git config --system
 git config --global
 git config --local
 ```
+
+# Herramientas con interfaz gráfica de GIT
+
+GitHub Desktop https://desktop.github.com/download/
+GitKraken https://www.gitkraken.com/b
