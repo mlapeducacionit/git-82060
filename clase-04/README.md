@@ -17,3 +17,9 @@ git stash list
 ```sh
 git stash
 ```
+
+## Recuperar el stash
+
+```sh
+git stash pop # Recupeara el último stash realizado y si no hay conflicto lo borra.
+```
