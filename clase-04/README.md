@@ -52,4 +52,4 @@ git stash apply 2 # stash@{1}
 ```
 
 # RESETS
-
+Me permite deshacer uno o varios commits y los cambios los deja en un área. Hay 3 tipos de resets
