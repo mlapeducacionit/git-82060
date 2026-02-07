@@ -11,3 +11,9 @@
 ```sh
 git stash list
 ```
+
+## Como crear stashes
+
+```sh
+git stash
+```
