@@ -51,3 +51,5 @@ git stash apply 1 # stash@{1}
 git stash apply 2 # stash@{1}
 ```
 
+# RESETS
+
